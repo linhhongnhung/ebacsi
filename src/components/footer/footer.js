@@ -1,5 +1,27 @@
 import React from "react"
 
+const TabItem = (props) => {
+    const { content } = props
+  
+    return (
+        <div> <a href="gioi-thieu.html">{content}</a></div>
+    );
+};
+
+const TabList = [
+    {
+      text: "GIỚI THIỆU"
+    },
+    {
+      text: "CÁC GÓI DỊCH VỤ Y TẾ"
+    },
+    {
+      text: "TIN TỨC"
+    },
+    {
+      text: "ĐĂNG KÝ NHẬN TƯ VẤN"
+    },
+  ]
 
 export function Footer() {
     return (
@@ -16,10 +38,10 @@ export function Footer() {
 
                 <div className="flex flex-col mt-[8.5rem] w-[46rem]">
                     <div className="flex flex-row justify-between text-xl">
-                        <div className=""> <a href="gioi-thieu.html"  >GIỚI THIỆU </a></div>
-                        <div className=""><a href="cac-goi-dich-vu.html" >CÁC GÓI DỊCH VỤ Y TẾ</a></div>
-                        <div className="">TIN TỨC</div>
-                        <div className="">ĐĂNG KÝ NHẬN TƯ VẤN</div>
+                        
+                    {TabList.map((item, index) => {
+                        return <TabItem key={index} content={item.text} />
+                    })}
 
 
                     </div>
