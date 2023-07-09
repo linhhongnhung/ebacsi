@@ -1,0 +1,64 @@
+import React from "react"
+
+
+export function Footer() {
+    return (
+        <footer className="bg-[#005baa] text-white inset-x-0 bottom-0 items-center flex flex-row justify-center items-center">
+
+
+            <div className="w-[75rem] flex flex-row justify-between mb-[7.5rem]">
+                <div className="max-w-md mt-[3.75rem] w-[24.375rem]">
+                    <img src="./imgs/Website---eBacsi---final---cut_82.png" />
+                    <h4 className="mt-[4.375rem] font-bold mb-[1.125rem] text-xl">TỔNG CÔNG TY TRUYỀN THÔNG (VNPT-MEDIA)</h4>
+                    <span className="text-sm leading-8">GIẤY CHỨNG NHẬN ĐĂNG KÝ DOANH NGHIỆP SỐ: 0106873188 DO SỞ KH&ĐT HÀ NỘI CẤP NGÀY 12/06/2015
+                    </span>
+                </div>
+
+                <div className="flex flex-col mt-[8.5rem] w-[46rem]">
+                    <div className="flex flex-row justify-between text-xl">
+                        <div className=""> <a href="gioi-thieu.html"  >GIỚI THIỆU </a></div>
+                        <div className=""><a href="cac-goi-dich-vu.html" >CÁC GÓI DỊCH VỤ Y TẾ</a></div>
+                        <div className="">TIN TỨC</div>
+                        <div className="">ĐĂNG KÝ NHẬN TƯ VẤN</div>
+
+
+                    </div>
+                    <div className="flex flex-row mt-20 justify-between mt-[3.75rem]">
+                        <div className="">
+                            <h4 className="font-bold mb-[1.125rem] text-xl">ĐIỀU KHOẢN VÀ CHÍNH SÁCH BẢO MẬT</h4>
+                            <ul>
+                                <li className="mb-2"><i className=""></i> <a href="dieu-khoan-hoat-dong.html text-sm">Điều khoản hoạt động</a></li>
+                                <li className="my-2"><i className=""></i> <a href="thanh-toan.html text-sm">Quy định thanh toán</a></li>
+                                <li className="mt-2"><i className=""></i> <a href="chinh-sach-bao-mat-thong-tin.html text-sm">Chính sách bảo mật thông tin</a></li>
+
+
+                            </ul>
+                            <img className="mt-8" src="./imgs/dathongbao.png" />
+                        </div>
+                        <div className="">
+                            <h4 className="font-bold mb-[1.125rem] text-xl">KẾT NỐI VỚI CHÚNG TÔI</h4>
+                            <div className="icon-footer flex flex-row">
+                                <a href="https://www.facebook.com/VNPT-eBacsi-104448552242601">
+                                    <img src="./imgs/Website---eBacsi---final---cut_86.png" className="mr-2" />
+                                </a>
+                                <a href="https://www.instagram.com">
+                                    <img className="mx-2" src="./imgs/Website---eBacsi---final---cut_88.png" />
+                                </a>
+                                <a href="https://www.youtube.com">
+                                    <img className="mx-2" src="./imgs/Website---eBacsi---final---cut_90.png" />
+                                </a>
+                            </div>
+                            <img className="mt-[3.625rem]" src="./imgs/Website---eBacsi---final---cut_96.png" />
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </footer>
+
+    )
+}
