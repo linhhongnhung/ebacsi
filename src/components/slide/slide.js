@@ -12,13 +12,13 @@ export function Slide() {
     slidesToScroll: 1
   };
   return (
-    <Slider {...settings} className="mt-32">
-      <div>
-        <img src="./imgs/Banner 1 (1920x640).png" alt="banner-1" />
-      </div>
-      <div>
-        <img src="./imgs/Banner 2 Tong dai.jpg" alt="banner-2" />
-      </div>
-    </Slider>
+      <Slider {...settings} className="mt-[7.2rem] mb-[2rem]">
+        <div>
+          <img src="./imgs/Banner 1 (1920x640).png" alt="banner-1" />
+        </div>
+        <div>
+          <img src="./imgs/Banner 2 Tong dai.jpg" alt="banner-2" />
+        </div>
+      </Slider>
   );
 }

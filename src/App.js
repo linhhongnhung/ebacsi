@@ -1,14 +1,12 @@
 import React from "react";
 import "./App.css";
 import "./index.css";
-import { Footer, Header, Slide } from "./components";
+import { Home } from "./pages"
 
 function App() {
   return (
     <React.Fragment>
-      <Header />
-      <Slide />
-      <Footer />
+      <Home />
     </React.Fragment>
   );
 }
