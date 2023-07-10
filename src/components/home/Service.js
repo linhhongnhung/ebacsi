@@ -34,9 +34,9 @@ export function Service() {
     };
     return (
         <div className="w-80 rounded-xl bg-white pb-2 w-full">
-            <div className="text-center">
-                <span className="text-primary font-bold text-5xl">SẢN PHẨM - DỊCH VỤ NỔI BẬT</span>
-                <a className="text-primary text-xl mx-auto absolute right-0" href="#">Xem thêm &gt;</a>
+            <div className="text-center w-[75rem] grid grid-cols-[1fr_6.25rem] mx-auto">
+                <span className="text-primary font-bold text-5xl pl-[6.25rem]">SẢN PHẨM - DỊCH VỤ NỔI BẬT</span>
+                <a className="text-primary text-xl my-auto" href="#">Xem thêm &gt;</a>
             </div>
             <img className="mx-auto" src="./imgs/Website---eBacsi---final---cut_17.jpg" alt="." />
 
