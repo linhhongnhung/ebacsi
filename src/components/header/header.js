@@ -32,7 +32,7 @@ export function Header() {
     >
       <div className="w-[75rem] flex flex-row justify-between">
         <a href="index.html">
-          <img src="/imgs/logo.png" alt="logo" />
+          <img src="/img/logo.png" alt="logo" />
         </a>
         <div className="relative w-[57.688rem]">
           <nav className="flex flex-row justify-between absolute inset-x-0 bottom-0">

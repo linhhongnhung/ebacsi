@@ -30,7 +30,7 @@ export function Footer() {
 
             <div className="w-[75rem] flex flex-row justify-between mb-[7.5rem]">
                 <div className="max-w-md mt-[3.75rem] w-[24.375rem]">
-                    <img src="./imgs/Website---eBacsi---final---cut_82.png" />
+                    <img src="./img/Website---eBacsi---final---cut_82.png" />
                     <h4 className="mt-[4.375rem] font-bold mb-[1.125rem] text-xl">TỔNG CÔNG TY TRUYỀN THÔNG (VNPT-MEDIA)</h4>
                     <span className="text-sm leading-8">GIẤY CHỨNG NHẬN ĐĂNG KÝ DOANH NGHIỆP SỐ: 0106873188 DO SỞ KH&ĐT HÀ NỘI CẤP NGÀY 12/06/2015
                     </span>
@@ -55,22 +55,22 @@ export function Footer() {
 
 
                             </ul>
-                            <img className="mt-8" src="./imgs/dathongbao.png" />
+                            <img className="mt-8" src="./img/dathongbao.png" />
                         </div>
                         <div className="">
                             <h4 className="font-bold mb-[1.125rem] text-xl">KẾT NỐI VỚI CHÚNG TÔI</h4>
                             <div className="icon-footer flex flex-row">
                                 <a href="https://www.facebook.com/VNPT-eBacsi-104448552242601">
-                                    <img src="./imgs/Website---eBacsi---final---cut_86.png" className="mr-2" />
+                                    <img src="./img/Website---eBacsi---final---cut_86.png" className="mr-2" />
                                 </a>
                                 <a href="https://www.instagram.com">
-                                    <img className="mx-2" src="./imgs/Website---eBacsi---final---cut_88.png" />
+                                    <img className="mx-2" src="./img/Website---eBacsi---final---cut_88.png" />
                                 </a>
                                 <a href="https://www.youtube.com">
-                                    <img className="mx-2" src="./imgs/Website---eBacsi---final---cut_90.png" />
+                                    <img className="mx-2" src="./img/Website---eBacsi---final---cut_90.png" />
                                 </a>
                             </div>
-                            <img className="mt-[3.625rem]" src="./imgs/Website---eBacsi---final---cut_96.png" />
+                            <img className="mt-[3.625rem]" src="./img/Website---eBacsi---final---cut_96.png" />
                         </div>
                     </div>
 

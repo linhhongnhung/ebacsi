@@ -7,24 +7,24 @@ import "slick-carousel/slick/slick-theme.css";
 
 const services = [
     {
-        img: "./imgs/services/hauCovid.jpg",
+        img: "./img/services/hauCovid.jpg",
         name: "Gói khám sức khỏe Hậu COVID-19 (BV Bưu điện HCM)",
         desc: "-	Định nghĩa gói khám: Gói kiểm tra sức khỏe hậu Covid-19 nâng cao giúp đánh givà dự phòng các yếu tố nguy cơ của hội chứng hậu Covid-19\n-	Địa chỉ: Bệnh viện Đa khoa Bưu điện TPHCM - Lô B9, Thành Thái, P.15, Q.10, TP. Hồ Chí Minh"
     },
     {
-        img: "./imgs/services/hauCovid.jpg",
+        img: "./img/services/hauCovid.jpg",
         name: "Gói khám sức khỏe Hậu COVID-19 (BV Bưu điện HCM)",
         desc: "-	Định nghĩa gói khám: Gói kiểm tra sức khỏe hậu Covid-19 nâng cao giúp đánh giá, chẩn đoán, điều trị và dự phòng các yếu tố nguy cơ của hội chứng hậu Covid-19\n-	Địa chỉ: Bệnh viện Đa khoa Bưu điện TPHCM - Lô B9, Thành Thái, P.15, Q.10, TP. Hồ Chí Minh"
     },
     {
-        img: "./imgs/services/hauCovid.jpg",
+        img: "./img/services/hauCovid.jpg",
         name: "Gói khám sức khỏe Hậu COVID-19 (BV Bưu điện HCM)",
         desc: "-	Định nghĩa gói khám: Gói kiểm tra sức khỏe hậu Covid- điều trị và dự phòng các yếu tố nguy cơ của hội chứng hậu Covid-19\n-	Địa chỉ: Bệnh viện Đa khoa Bưu điện TPHCM - Lô B9, Thành Thái, P.15, Q.10, TP. Hồ Chí Minh"
     },
 ]
 
 
-export function Service() {
+export function Services() {
     var settings = {
         dots: true,
         infinite: true,
@@ -38,7 +38,7 @@ export function Service() {
                 <span className="text-primary font-bold text-5xl pl-[6.25rem]">SẢN PHẨM - DỊCH VỤ NỔI BẬT</span>
                 <a className="text-primary text-xl my-auto" href="#">Xem thêm &gt;</a>
             </div>
-            <img className="mx-auto" src="./imgs/Website---eBacsi---final---cut_17.jpg" alt="." />
+            <img className="mx-auto" src="./img/Website---eBacsi---final---cut_17.jpg" alt="." />
 
             <Slider {...settings} className="mb-10">
                 <div>

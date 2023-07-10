@@ -1,12 +1,18 @@
 import React from "react";
-import { Footer, Header, Slide, Service} from "../components";
+import { Header, Banner, Services, MobileApp, Benefits, Network, Doctors, Feedbacks, News, Footer } from "../components";
 
 export default function Home() {
   return (
     <React.Fragment>
       <Header />
-      <Slide />
-      <Service />
+      <Banner />
+      <Services />
+      <MobileApp/>
+      <Benefits/>
+      <Network/>
+      <Doctors/>
+      <Feedbacks/>
+      <News/>
       <Footer />
     </React.Fragment>
   );
