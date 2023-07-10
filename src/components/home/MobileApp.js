@@ -1,7 +1,7 @@
 import React from "react";
 import { MobileAppCard } from "./mobile_app_card/MobileAppCard";
 
-const services = [
+const features = [
     {
         icon: "./img/Website---eBacsi---final---cut_27.png",
         title: "Đăng ký khám online",
@@ -53,7 +53,7 @@ export function MobileApp() {
                     <p className="text-white text-4xl text-center my-auto"> <b>VNPT eBacsi</b> - Chăm sóc sức khoẻ toàn diện mọi lúc mọi nơi</p>
                     <div className="w-[56rem] grid grid-cols-3 mx-auto gap-[0.938rem]">
                         {
-                            services.map((item, index) => {
+                            features.map((item, index) => {
                                 return <MobileAppCard key={index} icon={item.icon} title={item.title} desc={item.desc}
                                 />
                             })
