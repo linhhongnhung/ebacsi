@@ -9,7 +9,7 @@ export function Banner() {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
   };
   return (
       <Slider {...settings} className="mt-[7.2rem] mb-[2rem]">
