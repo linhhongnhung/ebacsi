@@ -28,7 +28,7 @@ const TabList = [
 export function Header() {
   return (
     <header
-      className="fixed inset-x-0 top-0 z-[1] items-center bg-white h-[8.625rem] flex flex-row justify-center items-center"
+      className="fixed inset-x-0 top-0 z-[2] items-center bg-white h-[8.625rem] flex flex-row justify-center items-center"
     >
       <div className="w-[75rem] flex flex-row justify-between">
         <a href="index.html">
