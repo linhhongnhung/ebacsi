@@ -7,9 +7,10 @@ export function Banner() {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 7000
   };
   return (
       <Slider {...settings} className="mt-[7.2rem] mb-[2rem]">
