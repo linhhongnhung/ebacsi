@@ -44,6 +44,9 @@ export function MobileApp() {
     };
     return (
         <React.Fragment>
+            <div className="bg-white h-[2.438rem] w-[85rem] mx-auto z-[1]">
+                <img className="w-[21.938rem] h-auto absolute z-[1]" src="/img/Iphone.png" />
+            </div>
             <div className="w-full mb-32">
                 <img src="./img/Banner 2.jpg" className="w-full absolute max-h-[43rem] h-full object-cover"></img>
                 <div className="w-[85rem] rounded-xl pb-2 grid grid-cols-[21.938rem_1fr] grid-rows-[6.5rem_1fr] mx-auto flex flex-col relative">
