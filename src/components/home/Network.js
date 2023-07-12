@@ -39,7 +39,7 @@ export function Network() {
 
     return (
         <div className="w-full h-auto pb-16" >
-            <img src="./img/Banner 3.jpg" className="w-full absolute max-h-[43rem] h-full object-cover"></img>
+            <img src="./img/Banner 3.jpg" className="w-full absolute max-h-[43rem] h-full object-cover" alt="bg"/>
             <div className="relative">
             <h1 className="text-center text-4xl text-white pt-[3.75rem]">Mạng lưới y tế <b>VNPT eBacsi</b> - Đặt lịch khám với:</h1>
             <img className="mx-auto mb-16 mt-2" src="./img/Website---eBacsi---final---cut_17.jpg" alt="." />

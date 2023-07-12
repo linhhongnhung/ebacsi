@@ -43,7 +43,7 @@ export function Doctors() {
                 {
                     doctors.map(doctor => {
                         return (
-                            <div className="mt-12 bg-white shadow-md rounded-[0.625rem] text-center mb-[5.875rem] !w-[24rem]" >
+                            <div className="mt-12 bg-white shadow-md rounded-[0.625rem] text-center mb-1 !w-[24rem] ml-0.5" >
                                 <img className="w-[21.875rem] mx-auto" src={doctor.img} />
                                 <p className="text-primary text-[1.563rem] font-bold mt-10">{doctor.name}</p>
                                 <p className="text-gray text-xl mb-[1.813rem]">{doctor.major}</p>

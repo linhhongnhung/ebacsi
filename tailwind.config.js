@@ -8,11 +8,11 @@ module.exports = {
       extend: {
           colors: {
               gradient: 'linear-gradient(180deg, #EE4600 0%, #FF864A 100%)',
-              primary: '#005baa', //orange
+              primary: '#005baa',
               green73: '#73D13D',
               greenF6: '#F6FFED',
               greenB7: '#B7EB8F',
-              second: '#0F62F9', //blue
+              second: '#0F62F9', 
               orangeDF: '#DF7300',
               black: '#000000',
               black29: '#292D32',
