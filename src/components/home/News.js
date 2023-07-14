@@ -1,6 +1,6 @@
 import React from "react";
 
-const news = [
+let news = [
     {
         img: "./img/newimg.jpg",
         title: "1Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
@@ -33,6 +33,8 @@ const news = [
     }
 ]
 
+let newsDisplay = news.slice(news.length - 4, news.length)
+newsDisplay.reverse()
 
 function BigNew(props) {
     const { img, title, desc } = props
@@ -74,12 +76,12 @@ export function News() {
             </div>
             <img className="mx-auto mb-[1.75rem]" src="./img/Website---eBacsi---final---cut_17.jpg" alt="." />
             <div className="w-[75rem] mx-auto mb-24">
-                {
-                    news.map((item, index) => {
+                {           
+                    newsDisplay.map((item, index) => {
                         if (index % 4 === 0) {
-      
+
                             return (
-                                <BigNew key={index} img={item.img} title={item.title} desc={item.desc}/>
+                                <BigNew key={index} img={item.img} title={item.title} desc={item.desc} />
                             )
                         }
                         else {
@@ -88,6 +90,7 @@ export function News() {
                             )
                         }
                     })
+
                 }
             </div>
         </div>
