@@ -8,4 +8,6 @@ import { Doctors } from "./home/Doctors";
 import { Feedbacks } from "./home/Feedbacks";
 import { News } from "./home/News";
 import { Footer } from "./footer/Footer";
-export { Header, Banner, Services, MobileApp, Benefits, Network, Doctors, Feedbacks, News, Footer };
+import { Intro } from "./info/Intro"
+import { BannerTitle } from "./banner_title/BannerTitle"
+export { Header, Banner, Services, MobileApp, Benefits, Network, Doctors, Feedbacks, News, Footer, Intro, BannerTitle};

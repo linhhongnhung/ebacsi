@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
 import "./index.css";
-import { Home } from "./pages"
+import { Home, Info } from "./pages"
 
 function App() {
   return (
     <React.Fragment>
-      <Home />
+      {/* <Home /> */}
+      <Info/>
     </React.Fragment>
   );
 }

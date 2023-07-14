@@ -79,7 +79,6 @@ export function News() {
                 {           
                     newsDisplay.map((item, index) => {
                         if (index % 4 === 0) {
-
                             return (
                                 <BigNew key={index} img={item.img} title={item.title} desc={item.desc} />
                             )
