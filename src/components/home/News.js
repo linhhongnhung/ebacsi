@@ -20,6 +20,16 @@ const news = [
         img: "./img/newimg.jpg",
         title: "4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+    },
+    {
+        img: "./img/newimg.jpg",
+        title: "5Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+    },
+    {
+        img: "./img/newimg.jpg",
+        title: "6Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
     }
 ]
 
@@ -55,6 +65,7 @@ function SmallNew(props) {
 }
 
 export function News() {
+
     return (
         <div className="h-[47.75rem]">
             <div className="text-center w-[75rem] grid grid-cols-[1fr_6.25rem] mx-auto mt-20">
@@ -66,6 +77,7 @@ export function News() {
                 {
                     news.map((item, index) => {
                         if (index % 4 === 0) {
+      
                             return (
                                 <BigNew key={index} img={item.img} title={item.title} desc={item.desc}/>
                             )
