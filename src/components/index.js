@@ -10,4 +10,5 @@ import { News } from "./home/News";
 import { Footer } from "./footer/Footer";
 import { Intro } from "./info/Intro"
 import { BannerTitle } from "./banner_title/BannerTitle"
-export { Header, Banner, Services, MobileApp, Benefits, Network, Doctors, Feedbacks, News, Footer, Intro, BannerTitle};
+import { InputForm } from "./support_contact/InputForm"
+export { Header, Banner, Services, MobileApp, Benefits, Network, Doctors, Feedbacks, News, Footer, Intro, BannerTitle, InputForm};
