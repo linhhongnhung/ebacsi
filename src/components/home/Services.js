@@ -14,7 +14,7 @@ const services = [
     {
         img: "./img/services/hauCovid.jpg",
         name: "Gói khám sức khỏe Hậu COVID-19 (BV Bưu điện HCM)",
-        desc: "-	Định nghĩa gói khám: Gói kiểm tra sức khỏe hậu Covid-19 nâng cao giúp đánh giá, chẩn đoán, điều trị và dự phòng các yếu tố nguy cơ của hội chứng hậu Covid-19\n-	Địa chỉ: Bệnh viện Đa khoa Bưu điện TPHCM - Lô B9, Thành Thái, P.15, Q.10, TP. Hồ Chí Minh"
+        desc: "-	Định nghĩa gói khám: Gói kiểm tra sức khỏe hậu Covid-19 nâng cao giúp đánh giá, chẩn đoán, điều trị và dự phòng các yếu tố nguy cơ của hội chứng hậu Covid-19\n-	Địa chỉ: Bệnh viện Đa khoa Bưu điện TPHCM - Lô B9"
     },
     {
         img: "./img/services/hauCovid.jpg",
@@ -58,7 +58,7 @@ export function Services() {
         slidesToScroll: 1
     };
     return (
-        <div className="w-[75rem] mx-auto rounded-xl bg-white pb-2">
+        <div className="w-[75rem] mx-auto bg-white">
             <div className="text-center w-[75rem] grid grid-cols-[1fr_6.25rem] mx-auto">
                 <span className="text-primary font-bold text-5xl pl-[6.25rem]">SẢN PHẨM - DỊCH VỤ NỔI BẬT</span>
                 <a className="text-primary text-xl my-auto" href="#">Xem thêm &gt;</a>

@@ -25,7 +25,7 @@ export function Feedbacks() {
                     </div>
                 </div>
             </div>
-            <img src="./img/Banner 4.jpg" className="w-full relative h-full object-cover pt-[9.5rem]" alt="bg" />
+            <img src="./img/Banner 4.jpg" className="w-full relative max-h-[63.125rem] object-cover pt-[9.5rem]" alt="bg" />
         </React.Fragment>
     )
 }
