@@ -1,25 +1,30 @@
 import React from "react"
+import { Link } from "react-router-dom";
 
 const TabItem = (props) => {
-    const { content } = props
+    const { content, url } = props
   
     return (
-        <div> <a href="gioi-thieu.html">{content}</a></div>
+        <div> <Link to={url}>{content}</Link></div>
     );
 };
 
 const TabList = [
     {
-      text: "GIỚI THIỆU"
+      text: "GIỚI THIỆU",
+      url: "/gioi-thieu"
     },
     {
-      text: "CÁC GÓI DỊCH VỤ Y TẾ"
+      text: "CÁC GÓI DỊCH VỤ Y TẾ",
+      url: "/cac-goi-dich-vu-y-te"
     },
     {
-      text: "TIN TỨC"
+      text: "TIN TỨC",
+      url: "/tin-tuc"
     },
     {
-      text: "ĐĂNG KÝ NHẬN TƯ VẤN"
+      text: "ĐĂNG KÝ NHẬN TƯ VẤN",
+      url: "/dang-ky-nhan-tu-van"
     },
   ]
 
@@ -40,7 +45,7 @@ export function Footer() {
                     <div className="flex flex-row justify-between text-xl">
                         
                     {TabList.map((item, index) => {
-                        return <TabItem key={index} content={item.text} />
+                        return <TabItem key={index} content={item.text} url={item.url}/>
                     })}
 
 
