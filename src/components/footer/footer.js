@@ -54,9 +54,9 @@ export function Footer() {
                         <div className="">
                             <h4 className="font-bold mb-[1.125rem] text-xl">ĐIỀU KHOẢN VÀ CHÍNH SÁCH BẢO MẬT</h4>
                             <ul>
-                                <li className="mb-2"><i className=""></i> <a href="dieu-khoan-hoat-dong.html text-sm">Điều khoản hoạt động</a></li>
-                                <li className="my-2"><i className=""></i> <a href="thanh-toan.html text-sm">Quy định thanh toán</a></li>
-                                <li className="mt-2"><i className=""></i> <a href="chinh-sach-bao-mat-thong-tin.html text-sm">Chính sách bảo mật thông tin</a></li>
+                                <li className="mb-2"> <a className="text-sm" href="#">Điều khoản hoạt động</a></li>
+                                <li className="my-2"><a className="text-sm" href="#">Quy định thanh toán</a></li>
+                                <li className="mt-2"><a className="text-sm" href="#">Chính sách bảo mật thông tin</a></li>
 
 
                             </ul>
