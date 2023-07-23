@@ -42,7 +42,7 @@ const goidvs = [
 ];
 
 
-export default function Services() {
+export default function AllServices() {
     return (
         <React.Fragment>
             <Header />

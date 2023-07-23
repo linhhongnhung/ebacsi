@@ -1,16 +1,20 @@
 import React from "react";
 import "./App.css";
 import "./index.css";
-import { Home, Info, SupportContact, Services } from "./pages"
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Home, Info, SupportContact, AllServices } from "./pages"
 
 function App() {
   return (
-    <React.Fragment>
-      {/* <Home /> */}
-      {/* <Info/> */}
-      {/* <SupportContact/> */}
-      <Services/>
-    </React.Fragment>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/gioi-thieu" element={<Info />} />
+        <Route path="/cac-goi-dich-vu-y-te" element={<AllServices />} />
+        <Route path="/tin-tuc" element={<Info />} />
+        <Route path="/dang-ky-nhan-tu-van" element={<SupportContact />} />
+      </Routes>
+    </Router>
   );
 }
 

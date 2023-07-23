@@ -7,12 +7,12 @@ export default function Home() {
       <Header />
       <Banner />
       <Services />
-      <MobileApp/>
-      <Benefits/>
-      <Network/>
-      <Doctors/>
-      <Feedbacks/>
-      <News/>
+      <MobileApp />
+      <Benefits />
+      <Network />
+      <Doctors />
+      <Feedbacks />
+      <News />
       <Footer />
     </React.Fragment>
   );
