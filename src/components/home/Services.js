@@ -59,34 +59,11 @@ export function Services() {
     };
     return (
         <div className="w-[75rem] mx-auto bg-white">
-            <div className="text-center w-[75rem] grid grid-cols-[1fr_6.25rem] mx-auto">
+            <div className="text-center grid grid-cols-[1fr_6.25rem] mx-auto">
                 <span className="text-primary font-bold text-5xl pl-[6.25rem]">SẢN PHẨM - DỊCH VỤ NỔI BẬT</span>
                 <a className="text-primary text-xl my-auto" href="#">Xem thêm &gt;</a>
             </div>
             <img className="mx-auto" src="./img/Website---eBacsi---final---cut_17.jpg" alt="." />
-
-            {/* <Slider {...settings} className="mb-10">
-                <div>
-                    <div className="w-[76.875rem] flex flex-row mx-auto">
-                        {
-                            services.map((item, index) => {
-                                return <ServicePackCard key={index} img={item.img} name={item.name} desc={item.desc}
-                                />
-                            })
-                        }
-                    </div>
-                </div>
-                <div>
-                    <div className="w-[76.875rem] flex flex-row mx-auto">
-                        {
-                            services.map((item, index) => {
-                                return <ServicePackCard key={index} img={item.img} name={item.name} desc={item.desc}
-                                />
-                            })
-                        }
-                    </div>
-                </div>
-            </Slider> */}
 
             <Slider {...settings} className="mb-10">
                 {

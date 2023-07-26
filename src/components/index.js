@@ -14,5 +14,7 @@ import { InputForm } from "./support_contact/InputForm"
 import Pagination from "./pagination/Pagination";
 import { ServicePackCard } from "./home/service_pack_card/ServicePackCard";
 import { ServiceDetailContent } from "./service_detail_content/ServiceDetailContent";
-export { Header, Banner, Services, MobileApp, Benefits, Network, Doctors, Feedbacks, News, Footer, Intro, BannerTitle, InputForm, ServicePackCard, ServiceDetailContent};
+import { Topic } from "./news/Topic";
+import { TopicItem } from "./news/TopicItem";
+export { Header, Banner, Services, MobileApp, Benefits, Network, Doctors, Feedbacks, News, Footer, Intro, BannerTitle, InputForm, ServicePackCard, ServiceDetailContent, Topic, TopicItem};
 export default Pagination;
