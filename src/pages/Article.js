@@ -83,7 +83,7 @@ export default function Article() {
                     topRcmArticles.map(item => {
                         const titleUpperCase = item.title.toUpperCase();
                         return (
-                            <div className="text-[1.302rem] text-gray border-b-[0.063rem] border-[#e9e9e9] py-2"><Link>{titleUpperCase}</Link></div>
+                            <div className="text-[1.302rem] text-gray border-b-[0.063rem] border-[#e9e9e9] py-2 hover:text-[#f68b1f] hover:font-bold"><Link>{titleUpperCase}</Link></div>
                         )
                     })
                 }

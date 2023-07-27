@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const TabItem = (props) => {
   const { content, url } = props
     return (
-      <li className="text-gray text-xl">
+      <li className="text-gray text-xl hover:text-primary hover:font-bold">
         <NavLink to={url} activeClassName="active">
           {content}
         </NavLink>
