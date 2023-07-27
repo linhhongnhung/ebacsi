@@ -149,10 +149,10 @@ export default function News() {
             <Header />
             <BannerTitle title="TIN TỨC" />
             <div className="mb-[5.813rem]">
-                <div className="w-[75rem] mx-auto">
+                <div className="w-[75rem] mx-auto mb-[5.188rem]">
                     <Topic topicName="KIẾN THỨC Y TẾ" articleList={medicalDisplay} path="/kien-thuc-y-te" />
                 </div>
-                <div className="w-[75rem] mx-auto">
+                <div className="w-[75rem] mx-auto mb-[5.188rem]">
                     <Topic topicName="TIN TỨC - SỰ KIỆN" articleList={eventDisplay} path="/tin-tuc-su-kien" />
                 </div>
                 <div className="w-[75rem] mx-auto">

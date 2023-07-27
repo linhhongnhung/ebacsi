@@ -1,5 +1,5 @@
 import { Header } from "./header/Header";
-import { Banner } from "./home/Banner"; 
+import { Banner } from "./home/Banner";
 import { Services } from "./home/Services";
 import { MobileApp } from "./home/MobileApp";
 import { Benefits } from "./home/Benefits";
@@ -16,5 +16,6 @@ import { ServicePackCard } from "./home/service_pack_card/ServicePackCard";
 import { ServiceDetailContent } from "./service_detail_content/ServiceDetailContent";
 import { Topic } from "./news/Topic";
 import { TopicItem } from "./news/TopicItem";
-export { Header, Banner, Services, MobileApp, Benefits, Network, Doctors, Feedbacks, News, Footer, Intro, BannerTitle, InputForm, ServicePackCard, ServiceDetailContent, Topic, TopicItem};
+import { RcmArticle } from "./news/RcmArticle";
+export { Header, Banner, Services, MobileApp, Benefits, Network, Doctors, Feedbacks, News, Footer, Intro, BannerTitle, InputForm, ServicePackCard, ServiceDetailContent, Topic, TopicItem, RcmArticle };
 export default Pagination;
