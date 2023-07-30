@@ -15,10 +15,10 @@ export function Banner() {
   return (
       <Slider {...settings} className="mt-[7.2rem] mb-[2rem]">
         <div>
-          <img src="./img/Banner 1 (1920x640).png" alt="banner-1" />
+          <img className="w-full" src="./img/Banner 1 (1920x640).png" alt="banner-1" />
         </div>
         <div>
-          <img src="./img/Banner 2 Tong dai.jpg" alt="banner-2" />
+          <img className="w-full" src="./img/Banner 2 Tong dai.jpg" alt="banner-2" />
         </div>
       </Slider>
   );

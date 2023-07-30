@@ -54,17 +54,34 @@ export function Services() {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        className: "mb-10",
+        responsive: [
+            {
+                breakpoint: 1280,
+                settings: {
+                    slidesToShow: 2,
+                    className: "mb-10 w-[50rem] mx-auto"
+                },
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    className: "mb-10 w-[30rem] mx-auto"
+                },
+            },
+        ]
     };
     return (
-        <div className="w-[75rem] mx-auto bg-white">
-            <div className="text-center grid grid-cols-[1fr_6.25rem] mx-auto">
-                <span className="text-primary font-bold text-5xl pl-[6.25rem]">SẢN PHẨM - DỊCH VỤ NỔI BẬT</span>
+        <div className="w-[75rem] mx-auto bg-white xl:w-auto">
+            <div className="text-center grid grid-cols-[1fr_6.25rem] mx-auto ">
+                <span className="text-primary font-bold text-5xl pl-[6.25rem] lg:pl-0">SẢN PHẨM - DỊCH VỤ NỔI BẬT</span>
                 <Link className="text-primary text-xl my-auto" to="/cac-goi-dich-vu-y-te">Xem thêm &gt;</Link>
             </div>
             <img className="mx-auto" src="./img/Website---eBacsi---final---cut_17.jpg" alt="." />
 
-            <Slider {...settings} className="mb-10">
+            <Slider {...settings} className="">
                 {
                     services.map((item, index) => {
                         return <ServicePackCard key={index} img={item.img} name={item.name} desc={item.desc}

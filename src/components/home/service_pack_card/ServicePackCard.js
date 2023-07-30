@@ -24,7 +24,7 @@ export function ServicePackCard(props) {
     }
     else {
         return (
-            <div className="w-[24.375rem] rounded-[0.313rem] bg-white pb-2 shadow-lg mx-[0.469rem] mt-5 mb-[1.563rem]">
+            <div className="w-[24.375rem] rounded-[0.313rem] bg-white pb-2 shadow-lg mx-[0.469rem] mt-5 mb-[1.563rem] sm:w-[21rem]">
                 <img className="rounded-t-[0.313rem]" src={img}></img>
                 <div>
                     <div className="text-primary font-bold text-3xl m-6 leading-9"><Link to="/service-detail">{name}</Link></div>

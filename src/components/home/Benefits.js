@@ -32,14 +32,14 @@ const benefits = [
 export function Benefits() {
     return (
         <React.Fragment>
-            <div className="text-center w-[75rem] mx-auto mt-[4.25rem]">
+            <div className="text-center w-[75rem] mx-auto mt-[4.25rem] xl:w-auto xl:mx-4">
                 <p className="text-4xl text-primary"><b>VNPT eBacsi</b> - Giúp việc chăm sóc sức khỏe đơn giản và gần gũi hơn</p>
                 <img className="mx-auto mb-4 mt-2" src="./img/Website---eBacsi---final---cut_17.jpg" alt="." />
                 <p className="text-2xl text-gray ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
                     eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                 </p>
             </div>
-            <div className="w-[75rem] grid grid-cols-3 gap-[0.938rem] mx-auto mb-[7.875rem] mt-[2.75rem]">
+            <div className="w-[75rem] grid grid-cols-3 gap-[0.938rem] mx-auto mb-[7.875rem] mt-[2.75rem] lg:grid-cols-2 lg:w-auto md:w-auto md:grid-cols-1 xl:w-auto">
                 {
                     benefits.map((item, index) => {
                         return <BenefitItem
