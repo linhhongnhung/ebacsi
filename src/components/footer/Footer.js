@@ -5,7 +5,7 @@ const TabItem = (props) => {
     const { content, url } = props
 
     return (
-        <div className="hover:font-bold"> <Link to={url}>{content}</Link></div>
+        <div className="hover:font-bold md:py-2"> <Link to={url}>{content}</Link></div>
     );
 };
 
@@ -30,19 +30,19 @@ const TabList = [
 
 export function Footer() {
     return (
-        <footer className="bg-[#005baa] text-white inset-x-0 bottom-0 items-center flex flex-row justify-center items-center">
+        <footer className="bg-[#005baa] text-white inset-x-0 bottom-0 items-center flex flex-row justify-center">
 
 
-            <div className="w-[75rem] flex flex-row justify-between mb-[7.5rem]">
-                <div className="max-w-md mt-[3.75rem] w-[24.375rem]">
+            <div className="w-[75rem] flex flex-row justify-between mb-[7.5rem] xl:flex-col xl:w-auto xl:mx-8">
+                <div className="max-w-md mt-[3.75rem] w-[24.375rem] xl:w-auto">
                     <img src="./img/Website---eBacsi---final---cut_82.png" />
                     <h4 className="mt-[4.375rem] font-bold mb-[1.125rem] text-xl">TỔNG CÔNG TY TRUYỀN THÔNG (VNPT-MEDIA)</h4>
                     <span className="text-sm leading-8">GIẤY CHỨNG NHẬN ĐĂNG KÝ DOANH NGHIỆP SỐ: 0106873188 DO SỞ KH&ĐT HÀ NỘI CẤP NGÀY 12/06/2015
                     </span>
                 </div>
 
-                <div className="flex flex-col mt-[8.5rem] w-[46rem]">
-                    <div className="flex flex-row justify-between text-xl">
+                <div className="flex flex-col mt-[8.5rem] w-[46rem] xl:mt-8 md:w-auto">
+                    <div className="flex flex-row justify-between text-xl md:flex-col">
 
                         {TabList.map((item, index) => {
                             return <TabItem key={index} content={item.text} url={item.url} />
@@ -50,8 +50,8 @@ export function Footer() {
 
 
                     </div>
-                    <div className="flex flex-row mt-20 justify-between mt-[3.75rem]">
-                        <div className="">
+                    <div className="flex flex-row mt-20 justify-between mt-[3.75rem] md:flex-col">
+                        <div className="md:mb-10">
                             <h4 className="font-bold mb-[1.125rem] text-xl">ĐIỀU KHOẢN VÀ CHÍNH SÁCH BẢO MẬT</h4>
                             <ul>
                                 <li className="mb-2"> <a className="text-sm" href="#">Điều khoản hoạt động</a></li>
