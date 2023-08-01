@@ -17,7 +17,7 @@ const TabItem = (props) => {
       <li className="text-gray text-xl hover:text-primary hover:font-bold"
         onMouseEnter={handleSubMenuHover}
         onMouseLeave={handleSubMenuLeave}>
-        <NavLink to={url} activeClassName="active">
+        <NavLink to={url} activeClassName="active" className="pb-2">
           {content}
         </NavLink>
         <ul className={`submenu absolute bg-white mt-2 py-2 rounded-lg shadow-lg font-regular w-60 ${isSubMenuOpen ? "block" : "hidden"}`}>
