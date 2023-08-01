@@ -3,7 +3,7 @@ import { Header, Banner, Services, MobileApp, Benefits, Network, Doctors, Feedba
 
 export default function Home() {
   return (
-    <div className="container mx-auto">
+    <React.Fragment>
       <Header />
       <Banner />
       <Services />
@@ -14,6 +14,6 @@ export default function Home() {
       <Feedbacks />
       <News />
       <Footer />
-    </div>
+    </React.Fragment>
   );
 }
