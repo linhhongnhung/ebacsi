@@ -48,11 +48,14 @@ export function Header() {
     <header
       className="fixed inset-x-0 top-0 z-[2] items-center bg-white h-[8.625rem] flex flex-row justify-center items-center">
       <div className="w-[75rem] flex flex-row justify-between">
+
         <NavLink to="/" activeClassName="active">
           <img src="/img/logo.png" alt="logo" />
         </NavLink>
+        
         <div className="relative w-[57.688rem]">
-          <nav className="flex flex-row justify-between absolute inset-x-0 bottom-0">
+          <nav className="flex flex-row justify-between absolute inset-x-0 bottom-0 h-6">
+
             <ul className="flex flex-row justify-between w-[49.125rem]">
               {tabList.map((item, index) => {
                 return <TabItem key={index}
@@ -63,7 +66,14 @@ export function Header() {
                   handleSubMenuLeave={handleSubMenuLeave} />
               })}
             </ul>
-            <a href="#" className="w-[1.375rem]"><i className="bx bx-cart-alt text-[#f68b1f]"></i></a>
+            
+            <Link to="#"><i className="bx bx-cart-alt text-[#f68b1f] text-3xl"></i></Link>
+            <div className="w-[3.125rem] h-[1.375rem] bg-[#eaeaea] rounded-[0.688rem] flex flex-row my-auto items-center justify-between pl">
+              <img className="w-[1.125rem] h-[1.125rem] rounded-full ml-[0.2rem]" src="./img/language.jpg"/>
+              <p className="text-[0.781rem] font-bold">Vi</p>
+              <div className="bx bx-chevron-down text-xs"></div>
+            </div>
+
           </nav>
         </div>
       </div>
