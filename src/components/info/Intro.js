@@ -1,7 +1,7 @@
 import React from "react"
 export function Intro() {
     return (
-        <div className="w-[75rem] mx-auto mb-60 pt-[3.75rem]">
+        <div className="w-[75rem] mx-auto mb-60 pt-[3.75rem] xl:w-auto xl:px-8">
             <h1 className="text-5xl font-bold text-primary">Lời giới thiệu VNPT eBacsi</h1>
             <img className="mb-8 mt-2" src="./img/Website---eBacsi---final---cut_17.jpg" alt="." />
             <p className="text-gray text-[1.302rem]">
@@ -21,7 +21,7 @@ export function Intro() {
                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
                 vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
                 <div className="my-11">
-                    <img className="w-[60rem] h-[33.75rem] mx-auto rounded-[0.625rem]" src="./img/newimg.jpg" alt="info"/>
+                    <img className="w-[60rem] h-[33.75rem] mx-auto rounded-[0.625rem] xl:w-auto xl:h-auto" src="./img/newimg.jpg" alt="info"/>
                     <p className="text-gray text-[1.302rem] text-center mt-2">Lorem ipsum dolor sit amet, consectetur Risusn lacus vel facilisis</p>
                 </div>
                 <p className="text-gray text-[1.302rem]">
