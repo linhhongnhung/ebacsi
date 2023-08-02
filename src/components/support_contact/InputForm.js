@@ -30,8 +30,8 @@ export function InputForm() {
                 </div>
                 <p className="mt-[2.688rem] mb-[0.375rem] text-gray text-xl">Nội dung cần tư vấn (*)</p>
                 <textarea className="border-[0.094rem] border-primary w-full h-[13.188rem] px-8 py-5 text-xl rounded-[1.875rem] focus:ring-2 focus:outline-none" />
-                <div className="w-[21.875rem] h-[3.781rem] rounded-[1.875rem] bg-[#f68b1f] flex justify-center items-center mx-auto mt-10 ">
-                    <p className="text-white text-[1.926rem] font-bold">GỬI THÔNG TIN</p>
+                <div className="w-[21.875rem] h-[3.781rem] rounded-[1.875rem] bg-[#f68b1f] flex justify-center items-center mx-auto mt-10 hover:cursor-pointer hover:bg-opacity-80 lg:w-auto">
+                    <p className="text-white text-[1.926rem] font-bold sm:text-xl">GỬI THÔNG TIN</p>
                 </div>
 
             </div>
