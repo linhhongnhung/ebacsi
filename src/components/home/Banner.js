@@ -13,7 +13,7 @@ export function Banner() {
     autoplaySpeed: 7000
   };
   return (
-      <Slider {...settings} className="mt-[7.2rem] mb-[2rem]">
+      <Slider {...settings} className="mb-[2rem]">
         <div>
           <img className="w-full" src="./img/Banner 1 (1920x640).png" alt="banner-1" />
         </div>

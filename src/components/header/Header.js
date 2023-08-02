@@ -56,8 +56,8 @@ export function Header() {
 
   return (
     <header
-      className="fixed inset-x-0 top-0 z-[2] items-center bg-white h-[8.625rem] flex flex-row justify-center items-center lg:h-[6rem]">
-      <div className="w-[75rem] flex flex-row justify-between xl:px-12">
+      className="sticky inset-x-0 top-0 z-[2] items-center bg-white h-[8.625rem] flex flex-row justify-center items-center lg:h-[6rem]">
+      <div className="w-[75rem] flex flex-row justify-between xl:px-12 xl:w-full">
 
         <NavLink to="/" activeClassName="active">
           <img className="lg:h-16" src="/img/logo.png" alt="logo" />

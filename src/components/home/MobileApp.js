@@ -48,7 +48,7 @@ export function MobileApp() {
                 <img className="w-[21.938rem] h-auto absolute z-[1]" src="/img/Iphone.png" />
             </div>
             <div className="w-auto mb-32">
-                <img src="./img/Banner 2.jpg" className="w-full absolute max-h-[43rem] h-full object-cover mobile-app-bg" />
+                <img src="./img/Banner2.jpg" className="w-full absolute max-h-[43rem] h-full object-cover mobile-app-bg" />
                 <div className="w-[85rem] rounded-xl pb-2 grid grid-cols-[21.938rem_1fr] grid-rows-[6.5rem_1fr] mx-auto flex flex-col relative xl:w-auto lg:grid-cols-1 xl:mx-4">
                     <img className="w-[21.938rem] h-auto row-start-1 row-end-3" src="" />
                     <p className="text-white text-4xl text-center my-auto lg:mt-[35rem]"> <b>VNPT eBacsi</b> - Chăm sóc sức khoẻ toàn diện mọi lúc mọi nơi</p>
