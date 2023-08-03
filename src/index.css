@@ -16,6 +16,10 @@
     .mobile-app-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+
+    .all-services-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
 /* Custom CSS cho breakpoint LG (từ 1024px đến 1279px) */
@@ -34,6 +38,10 @@
     }
 
     .mobile-app-grid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .all-services-grid {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 }

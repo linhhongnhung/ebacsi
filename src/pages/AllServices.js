@@ -128,9 +128,9 @@ export default function AllServices() {
             <Header />
             <BannerTitle title="CÁC GÓI DỊCH VỤ Y TẾ" />
 
-            <div className="w-[75.938rem] mx-auto">
+            <div className="w-[75.938rem] mx-auto xl:w-auto">
                 <div className="flex items-center justify-between">
-                    <div className="grid grid-cols-3">
+                    <div className="grid grid-cols-3 all-services-grid">
                         {currentItems.map((goidv, index) => (
                             <ServicePackCard
                                 key={index}
