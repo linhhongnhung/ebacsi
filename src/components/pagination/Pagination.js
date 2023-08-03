@@ -13,8 +13,8 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
                   key={pageNumber}
                   onClick={() => onPageChange(pageNumber)}
                   className={pageNumber === currentPage ?
-                      'active text-[2.083rem] text-primary w-[3.938rem] h-[3.938rem] rounded-full border-primary border-[0.094rem] flex items-center justify-center m-[0.531rem] hover:bg-primary hover:text-white'
-                      : 'text-[2.083rem] w-[3.938rem] h-[3.938rem] rounded-full border-gray text-gray border-[0.094rem] flex items-center justify-center m-[0.531rem] hover:bg-primary hover:text-white hover:border-primary'}
+                      'active text-[2.083rem] text-primary w-[3.938rem] h-[3.938rem] rounded-full border-primary border-[0.094rem] flex items-center justify-center m-[0.531rem] hover:bg-primary hover:text-white lg:w-10 lg:h-10 lg:text-xl'
+                      : 'text-[2.083rem] w-[3.938rem] h-[3.938rem] rounded-full border-gray text-gray border-[0.094rem] flex items-center justify-center m-[0.531rem] hover:bg-primary hover:text-white hover:border-primary lg:w-10 lg:h-10 lg:text-xl'}
               >
                   {pageNumber}</button>
           ))}

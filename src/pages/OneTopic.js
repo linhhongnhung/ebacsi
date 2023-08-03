@@ -176,7 +176,7 @@ export default function OneTopic() {
             <Header />
             <BannerTitle title="TIN TỨC" />
             <div className="mb-[5.625rem]">
-                <div className="w-[75rem] mx-auto mb-[1.875rem]">
+                <div className="w-[75rem] mx-auto mb-[1.875rem] xl:w-auto px-4">
                     <Topic topicName={topicName} articleList={currentItems} path={lastPath} />
                 </div>
                 <Pagination
