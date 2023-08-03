@@ -46,7 +46,7 @@ export function Doctors() {
     };
 
     return (
-        <div className="w-[75rem] mx-auto grid grid-cols-[1fr_49.75rem] mt-[4.5rem] xl:grid-cols-1 xl:m-10 xl:w-auto">
+        <div className="w-[75rem] mx-auto grid grid-cols-[1fr_49.75rem] mt-[4.5rem] mb-[7.625rem] xl:grid-cols-1 xl:m-10 xl:w-auto">
             <div>
                 <h1 className="font-bold text-primary text-5xl mb-1">ĐỘI NGŨ BÁC SĨ ƯU TÚ</h1>
                 <img src="./img/Website---eBacsi---final---cut_17.jpg" alt="." />

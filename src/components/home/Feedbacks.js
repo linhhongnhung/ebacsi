@@ -1,4 +1,5 @@
 import React from "react";
+import Slider from "react-slick";
 
 function QrCode() {
     return (
@@ -14,18 +15,67 @@ function QrCode() {
     )
 }
 
+function Rating(props) {
+    return (
+        <div>
+
+        </div>
+    )
+}
+
 export function Feedbacks() {
+
+    const settings = {
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000
+    };
+
     return (
         <React.Fragment>
             <div className="w-[75rem] mx-auto xl:w-auto xl:items-center">
                 <QrCode />
-                <div className="w-full mb-32">
-                    <div className="w-[75rem] mx-auto relative">
-                        
-                    </div>
+            </div>
+
+            {/* Feedbacks */}
+            <div className="bg-[url('../public/img/Banner4.jpg')] bg-cover w-full relative h-[63.125rem] mt-[17.25rem] xl:h-full">
+                <div className="w-[62.75rem] mb-32 pt-[27.5rem] mx-auto relative xl:w-auto xl:px-8 xl:pt-[52rem] xl:pb-16">
+                    <Slider {...settings}>
+                        {feedbacks.map(feedback => {
+                            return (
+                                <div className="mx-auto rounded-[1rem] text-center bg-gradient-to-b from-[#f68b1f] to-primary p-[0.32rem]">
+                                    <div className="bg-white px-[4.375rem] rounded-[0.8rem] md:px-6">
+                                        <h2 className="text-4xl text-primary pt-[1.875rem]">Khách hàng nói gì về <b>VNPT eBacsi</b></h2>
+                                        <img className="mx-auto mt-1" src="./img/Website---eBacsi---final---cut_17.jpg" alt="." />
+                                        <img className="w-[11.938rem] mx-auto mb-[2.3rem] mt-6 rounded-full shadow-2xl border-2 border-white" src={feedback.avatar} alt="customer-avatar" />
+                                        <p className="text-gray text-2xl leading-8">{feedback.comment}</p>
+                                    </div>
+                                </div>
+                            )
+                        })}
+                    </Slider>
                 </div>
             </div>
-            <img src="./img/Banner 4.jpg" className="w-full relative max-h-[63.125rem] object-cover pt-[9.5rem] xl:h-[90rem]" alt="bg" />
         </React.Fragment>
     )
 }
+
+const feedbacks = [
+    {
+        avatar: "./img/customers_feedbacks/customer1.jpg",
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. ",
+        rating: "4"
+    },
+    {
+        avatar: "./img/customers_feedbacks/customer2.jpg",
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. ",
+        rating: "5"
+    },
+    {
+        avatar: "./img/customers_feedbacks/customer3.jpg",
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. ",
+        rating: "4.5"
+    },
+]

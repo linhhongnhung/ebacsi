@@ -63,32 +63,30 @@ export function Network() {
 
     return (
         <div className="w-full h-auto pb-16 xl:w-auto bg-[url('../public/img/Banner3.jpg')] bg-cover" >
-            <div className="relative">
-                <h1 className="text-center text-4xl text-white pt-[3.75rem]">Mạng lưới y tế <b>VNPT eBacsi</b> - Đặt lịch khám với:</h1>
-                <img className="mx-auto mb-16 mt-2" src="./img/Website---eBacsi---final---cut_17.jpg" alt="." />
-                <div className="flex flex-row justify-between w-[75rem] mx-auto px-[6.25rem] font-bold xl:w-auto md:px-4">
-                    {
-                        network.map((item) => {
-                            return (
-                                <div className="text-white text-center md:px-4">
-                                    <p className="text-[5.774rem] h-28 md:text-6xl md:h-20">{item.quantity}</p>
-                                    <p className="text-[1.604rem] sm:text-lg">{item.type}</p>
-                                    <p className="text-[1.25rem] font-regular sm:text-sm">{item.type2}</p>
-                                </div>)
-                        })
-                    }
-                </div>
-                <Slider {...settings}>
-
-                    {imgs.map(item => {
+            <h1 className="text-center text-4xl text-white pt-[3.75rem]">Mạng lưới y tế <b>VNPT eBacsi</b> - Đặt lịch khám với:</h1>
+            <img className="mx-auto mb-16 mt-2" src="./img/Website---eBacsi---final---cut_17.jpg" alt="." />
+            <div className="flex flex-row justify-between w-[75rem] mx-auto px-[6.25rem] font-bold xl:w-auto md:px-4">
+                {
+                    network.map((item) => {
                         return (
-                            <div className="bg-white !w-[18.047rem] rounded-[0.625rem]">
-                                <img className="h-40 mx-auto" src={item} alt="hospital" />
-                            </div>
-                        )
-                    })}
-                </Slider>
+                            <div className="text-white text-center md:px-4">
+                                <p className="text-[5.774rem] h-28 md:text-6xl md:h-20">{item.quantity}</p>
+                                <p className="text-[1.604rem] sm:text-lg">{item.type}</p>
+                                <p className="text-[1.25rem] font-regular sm:text-sm">{item.type2}</p>
+                            </div>)
+                    })
+                }
             </div>
+            <Slider {...settings}>
+
+                {imgs.map(item => {
+                    return (
+                        <div className="bg-white !w-[18.047rem] rounded-[0.625rem]">
+                            <img className="h-40 mx-auto" src={item} alt="hospital" />
+                        </div>
+                    )
+                })}
+            </Slider>
         </div>
     );
 }
