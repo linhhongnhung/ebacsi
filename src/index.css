@@ -9,10 +9,6 @@
 
 /* Custom CSS cho breakpoint XL (kích thước lớn hơn hoặc bằng 1280px) */
 @screen xl {
-    .mobile-app-bg {
-        max-height: 60rem;
-    }
-
     .mobile-app-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -24,19 +20,11 @@
 
 /* Custom CSS cho breakpoint LG (từ 1024px đến 1279px) */
 @screen lg {
-    .mobile-app-bg {
-        max-height: 98rem;
-    }
-
 
 }
 
 /* Custom CSS cho breakpoint MD (từ 768px đến 1023px) */
 @screen md {
-    .mobile-app-bg {
-        max-height: 130rem;
-    }
-
     .mobile-app-grid {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
@@ -48,12 +36,8 @@
 
 /* Custom CSS cho breakpoint SM (từ 640px đến 767px) */
 @screen sm {
-
 }
 
 
 @media screen and (max-width: 580px) {
-    .mobile-app-bg {
-        max-height: 144rem;
-    }
 }
