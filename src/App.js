@@ -1,14 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import "./index.css";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import { Home, Info, SupportContact, AllServices, ServiceDetail, News, OneTopic, Article } from "./pages"
 import Layout from "./components/layout/Layout";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
   return (
     <Router>
       <Layout>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/gioi-thieu" element={<Info />} />
@@ -22,7 +33,7 @@ function App() {
           <Route path="/article" element={<Article />} />
         </Routes>
       </Layout>
-    </Router>
+    </Router >
   );
 }
 

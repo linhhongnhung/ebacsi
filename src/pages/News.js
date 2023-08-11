@@ -148,7 +148,7 @@ export default function News() {
         <React.Fragment>
             <Header />
             <BannerTitle title="TIN TỨC" />
-            <div className="mb-[5.813rem] xl:m-6">
+            <div className="mb-[5.813rem] xl:m-6 mt-16">
                 <div className="w-[75rem] mx-auto mb-[5.188rem] xl:w-auto">
                     <Topic topicName="KIẾN THỨC Y TẾ" articleList={medicalDisplay} path="/kien-thuc-y-te" />
                 </div>

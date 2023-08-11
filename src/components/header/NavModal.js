@@ -42,7 +42,7 @@ const TabItem = (props) => {
   const { content, url } = props
   return (
     <li className="text-primary text-xl font-bold w-full hover:bg-grayEE">
-      <NavLink to={url} activeClassName="active" className="block py-2 px-4">
+      <NavLink to={url} className="block py-2 px-4">
         {content}
       </NavLink>
     </li>

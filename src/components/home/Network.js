@@ -1,5 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
+import { useSlideUp } from "../animations/SlideUp";
+import { animated } from 'react-spring';
 
 const network = [
     {
@@ -28,6 +30,8 @@ const imgs = [
 ]
 
 export function Network() {
+
+    const { ref, style: slideUp } = useSlideUp();
 
     const settings = {
         infinite: true,
@@ -69,11 +73,11 @@ export function Network() {
                 {
                     network.map((item) => {
                         return (
-                            <div className="text-white text-center md:px-4">
+                            <animated.div className="text-white text-center md:px-4" ref={ref} style={slideUp}>
                                 <p className="text-[5.774rem] h-28 md:text-6xl md:h-20">{item.quantity}</p>
                                 <p className="text-[1.604rem] sm:text-lg">{item.type}</p>
                                 <p className="text-[1.25rem] font-regular sm:text-sm">{item.type2}</p>
-                            </div>)
+                            </animated.div>)
                     })
                 }
             </div>

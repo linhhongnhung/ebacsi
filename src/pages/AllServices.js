@@ -117,6 +117,7 @@ export default function AllServices() {
 
     const onPageChange = (pageNumber) => {
         setCurrentPage(pageNumber);
+        scrollToTop();
     };
 
     const indexOfLastItem = currentPage * itemsPerPage;
@@ -151,4 +152,11 @@ export default function AllServices() {
             <Footer />
         </React.Fragment>
     )
+}
+
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 }

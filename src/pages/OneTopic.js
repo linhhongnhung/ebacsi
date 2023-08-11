@@ -165,6 +165,7 @@ export default function OneTopic() {
 
     const onPageChange = (pageNumber) => {
         setCurrentPage(pageNumber);
+        scrollToTop();
     };
 
     const indexOfLastItem = currentPage * itemsPerPage;
@@ -175,7 +176,7 @@ export default function OneTopic() {
         <React.Fragment>
             <Header />
             <BannerTitle title="TIN TỨC" />
-            <div className="mb-[5.625rem]">
+            <div className="mb-[5.625rem] mt-16">
                 <div className="w-[75rem] mx-auto mb-[1.875rem] xl:w-auto px-4">
                     <Topic topicName={topicName} articleList={currentItems} path={lastPath} />
                 </div>
@@ -187,4 +188,11 @@ export default function OneTopic() {
             <Footer />
         </React.Fragment>
     )
+}
+
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 }
